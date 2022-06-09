@@ -1,0 +1,52 @@
+$white: hsl(0, 0%, 100%);
+$violet: hsl(257, 40%, 49%);
+$soft-magenta: hsl(300, 69%, 71%);
+
+$font-open-sans: 'Open Sans', sans-serif;
+$font-poppins: 'Poppins', sans-serif;
+$fw-400: 400;
+$fw-600: 600;
+$fs-8s: 8.89px;
+$fs-10: 10px;
+$fs-11s: 11.04px;
+
+$mobile: 400px;
+$mobile-wide: 430px;
+$desktop: 1280px;
+$max-width: 1440px;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-size: $fs-10;
+    font-family: $font-open-sans;
+}
+
+.page {
+    background: $white;
+    min-height: 100vh;
+}
+
+
+@media screen and (max-width: $desktop) {
+    body, html {
+        font-size: $fs-8s;
+    }
+}
+
+@media screen and (max-width: $mobile-wide) {
+    body, html {
+        font-size: $fs-11s;
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    body, html {
+        font-size: $fs-10;
+    }
+}
