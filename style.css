@@ -10,8 +10,87 @@ body, html {
 }
 
 .page {
-  background: hsl(0deg, 0%, 100%);
+  background-image: url("./images/bg-desktop.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: hsl(257deg, 40%, 49%);
   min-height: 100vh;
+  padding: 6.4rem 8rem 4rem;
+}
+.page__logo {
+  width: 20rem;
+  height: 3.2rem;
+  margin-bottom: 10.4rem;
+}
+.page__wrapper {
+  display: flex;
+  gap: 5.9rem;
+  margin-bottom: 2.7rem;
+}
+.page__img {
+  width: 69.6rem;
+  height: 49.3rem;
+}
+.page__info {
+  padding-top: 3.2rem;
+  color: hsl(0deg, 0%, 100%);
+}
+.page__header {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 6rem;
+  margin-bottom: 2.4rem;
+  font-family: "Poppins", sans-serif;
+}
+.page__text {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  margin-bottom: 2.4rem;
+}
+.page__btn {
+  width: 20rem;
+  height: 5.6rem;
+  border: 0;
+  outline: 0;
+  background: hsl(0deg, 0%, 100%);
+  color: hsl(257deg, 40%, 49%);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
+  border-radius: 2.8rem;
+  cursor: pointer;
+}
+.page__btn:active, .page__btn:focus {
+  outline: 0;
+}
+.page__btn:hover {
+  background: hsl(300deg, 69%, 71%);
+  color: hsl(0deg, 0%, 100%);
+}
+.page__footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.6rem;
+}
+.page__social {
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+}
+.page__social img {
+  width: 100%;
+  height: 100%;
+}
+.page__social .sub {
+  display: none;
+}
+.page__social:hover .main {
+  display: none;
+}
+.page__social:hover .sub {
+  display: block;
 }
 
 @media screen and (max-width: 1280px) {
