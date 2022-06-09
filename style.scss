@@ -139,6 +139,63 @@ body, html {
     body, html {
         font-size: $fs-11s;
     }
+
+    .page {
+        background-image: url('./images/bg-mobile.svg');
+        padding: 3.82rem 3.5rem 4rem 3.6rem;
+    
+        &__logo {
+            width: 12rem;
+            height: 1.9rem;
+            margin-bottom: 6.98rem;
+        }
+    
+        &__wrapper {
+            flex-direction: column;
+            gap: 6rem;
+            margin-bottom: 6.4rem;
+        }
+    
+        &__img {
+            width: 29.6rem;
+            height: 20.9rem;
+        }
+    
+        &__info {
+            padding-top: 0;
+            text-align: center;
+        }
+    
+        &__header {
+            font-size: 2.4rem;
+            line-height: 3.6rem;
+            margin-bottom: 1.6rem;
+        }
+    
+        &__text {
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+        }
+    
+        &__btn {
+            width: 20rem;
+            height: 4rem;
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+            box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+            border-radius: 2rem;
+        }
+    
+        &__footer {
+            justify-content: center;
+            gap: 1.05rem;
+        }
+    
+        &__social {
+            width: 2.75rem;
+            height: 2.8rem;
+        }
+    }
 }
 
 @media screen and (max-width: $mobile) {
