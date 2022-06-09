@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Solution URL: [GitHub]([https://your-solution-url.com](https://github.com/CodeVee/huddle-landing-page))
+- Live Site URL: [Netlify](https://regal-lolly-0509f1.netlify.app/)
 
 ## My process
 
